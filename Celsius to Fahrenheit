@@ -1,0 +1,5 @@
+def main():
+    print("This program will convert temperature in Celsius to Fahrenheit")#Tells user what the program does
+    Ctemp=eval(input("Please insert the temperature for it to be converted: "))#Asks the user to input the temperature in Celsius
+    Ftemp= (Ctemp * 1.8)+ 32  # Equation to determine the temperature in Fahrenheit
+    print("The temperature in Fahrenheit is " + str(Ftemp) + " degress") # Prints out what the tempurature is in Fahrenheit.
