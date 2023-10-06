@@ -1,0 +1,6 @@
+def main():
+  year=eval(input("Enter a year"))
+  if year % 4==0:
+    print("Leap year")
+  else:
+    print("not a leap year")
