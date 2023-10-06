@@ -1,6 +1,7 @@
 def main():
-  year=eval(input("Enter a year"))
-  if year % 4==0:
-    print("Leap year")
+  year=eval(input("Enter a year: ")) # user inserts a year
+  if year % 4==0: #checks to see if it has been 4 years
+    print("Leap year") # if it has been 4 years
   else:
-    print("not a leap year")
+    print("not a leap year") # if it hasn't been 4 years
+main()
